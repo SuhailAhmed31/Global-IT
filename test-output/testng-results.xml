@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="27" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-05T10:51:39 IST" name="Suite" finished-at="2024-04-05T11:00:57 IST" duration-ms="558229">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T10:51:39 IST" name="Test search in Chrome" finished-at="2024-04-05T10:54:45 IST" duration-ms="186580">
+      <class name="testScenario.Global_IT">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:51:39 IST" name="driverConfig" finished-at="2024-04-05T10:51:48 IST" duration-ms="8947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="captureUserInfo()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:51:48 IST" name="captureUserInfo" finished-at="2024-04-05T10:52:48 IST" duration-ms="60487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureUserInfo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:52:48 IST" name="getResult" finished-at="2024-04-05T10:52:49 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=captureUserInfo status=SUCCESS method=Global_IT.captureUserInfo()[pri:0, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:52:49 IST" name="endReport" finished-at="2024-04-05T10:52:49 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="clickOnIT()[pri:1, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:52:49 IST" name="clickOnIT" finished-at="2024-04-05T10:52:54 IST" duration-ms="5439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnIT -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:52:54 IST" name="getResult" finished-at="2024-04-05T10:53:00 IST" duration-ms="5707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnIT status=SUCCESS method=Global_IT.clickOnIT()[pri:1, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:00 IST" name="endReport" finished-at="2024-04-05T10:53:00 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="exploreApps()[pri:2, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:00 IST" name="exploreApps" finished-at="2024-04-05T10:53:41 IST" duration-ms="41037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:41 IST" name="getResult" finished-at="2024-04-05T10:53:41 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exploreApps status=SUCCESS method=Global_IT.exploreApps()[pri:2, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:41 IST" name="endReport" finished-at="2024-04-05T10:53:41 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:53:42 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT Outage Alert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IT Outage Alerts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="getResult" finished-at="2024-04-05T10:53:42 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="endReport" finished-at="2024-04-05T10:53:42 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:53:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Microsoft Teams]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Teams]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="getResult" finished-at="2024-04-05T10:53:42 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="endReport" finished-at="2024-04-05T10:53:42 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:53:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Drive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[One Drive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="getResult" finished-at="2024-04-05T10:53:42 IST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="endReport" finished-at="2024-04-05T10:53:42 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:53:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global IT Internal Events]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Global IT Internal Events]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="getResult" finished-at="2024-04-05T10:53:42 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="endReport" finished-at="2024-04-05T10:53:42 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:53:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global Information Technology Documents]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S&T Policy Hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="getResult" finished-at="2024-04-05T10:53:42 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="endReport" finished-at="2024-04-05T10:53:42 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="verifyNewsAvailability()[pri:4, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:42 IST" name="verifyNewsAvailability" finished-at="2024-04-05T10:53:43 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsAvailability -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:43 IST" name="getResult" finished-at="2024-04-05T10:53:44 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewsAvailability status=SUCCESS method=Global_IT.verifyNewsAvailability()[pri:4, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="endReport" finished-at="2024-04-05T10:53:44 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="verifyAwardsAvailability()[pri:5, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="verifyAwardsAvailability" finished-at="2024-04-05T10:53:44 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAwardsAvailability -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="getResult" finished-at="2024-04-05T10:53:44 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAwardsAvailability status=SUCCESS method=Global_IT.verifyAwardsAvailability()[pri:5, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="endReport" finished-at="2024-04-05T10:53:44 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayNewsCount()[pri:6, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="displayNewsCount" finished-at="2024-04-05T10:53:44 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayNewsCount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="getResult" finished-at="2024-04-05T10:53:44 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayNewsCount status=SUCCESS method=Global_IT.displayNewsCount()[pri:6, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="endReport" finished-at="2024-04-05T10:53:44 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateNewsHeaderAndTooltip()[pri:7, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:44 IST" name="validateNewsHeaderAndTooltip" finished-at="2024-04-05T10:53:45 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewsHeaderAndTooltip -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:45 IST" name="getResult" finished-at="2024-04-05T10:53:45 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNewsHeaderAndTooltip status=SUCCESS method=Global_IT.validateNewsHeaderAndTooltip()[pri:7, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:45 IST" name="endReport" finished-at="2024-04-05T10:53:45 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:53:45 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T10:54:00 IST" duration-ms="15491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rishabh Raj becomes EC Council Disaster Recovery Professional]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:00 IST" name="getResult" finished-at="2024-04-05T10:54:01 IST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayAwards status=SUCCESS method=Global_IT.displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:01 IST" name="endReport" finished-at="2024-04-05T10:54:01 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:01 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T10:54:18 IST" duration-ms="16965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT Team Wins Two Awards at the DevOps India Summit 2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:18 IST" name="getResult" finished-at="2024-04-05T10:54:18 IST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayAwards status=SUCCESS method=Global_IT.displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:18 IST" name="endReport" finished-at="2024-04-05T10:54:18 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:18 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T10:54:34 IST" duration-ms="16047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CInsights Wins the Prestigious Brandon Hall Award]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:34 IST" name="getResult" finished-at="2024-04-05T10:54:34 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayAwards status=SUCCESS method=Global_IT.displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@51cd7ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:34 IST" name="endReport" finished-at="2024-04-05T10:54:34 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScenario.Global_IT@51cd7ffc]" started-at="2024-04-05T10:54:34 IST" name="closeBrowser" finished-at="2024-04-05T10:54:45 IST" duration-ms="11283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScenario.Global_IT -->
+    </test> <!-- Test search in Chrome -->
+    <test started-at="2024-04-05T10:54:45 IST" name="Test search in Edge" finished-at="2024-04-05T11:00:57 IST" duration-ms="371607">
+      <class name="testScenario.Global_IT">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:54:45 IST" name="driverConfig" finished-at="2024-04-05T10:54:56 IST" duration-ms="10257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="captureUserInfo()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:54:56 IST" name="captureUserInfo" finished-at="2024-04-05T10:55:54 IST" duration-ms="58321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureUserInfo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:55:54 IST" name="getResult" finished-at="2024-04-05T10:55:54 IST" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=captureUserInfo status=SUCCESS method=Global_IT.captureUserInfo()[pri:0, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:55:54 IST" name="endReport" finished-at="2024-04-05T10:55:54 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="clickOnIT()[pri:1, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:55:54 IST" name="clickOnIT" finished-at="2024-04-05T10:56:00 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnIT -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:56:00 IST" name="getResult" finished-at="2024-04-05T10:56:22 IST" duration-ms="22281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnIT status=SUCCESS method=Global_IT.clickOnIT()[pri:1, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:56:22 IST" name="endReport" finished-at="2024-04-05T10:56:22 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="exploreApps()[pri:2, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:56:22 IST" name="exploreApps" finished-at="2024-04-05T10:57:50 IST" duration-ms="87800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="getResult" finished-at="2024-04-05T10:57:50 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=exploreApps status=SUCCESS method=Global_IT.exploreApps()[pri:2, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="endReport" finished-at="2024-04-05T10:57:50 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:57:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT Outage Alert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IT Outage Alerts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="getResult" finished-at="2024-04-05T10:57:50 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="endReport" finished-at="2024-04-05T10:57:50 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:57:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Microsoft Teams]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Teams]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:50 IST" name="getResult" finished-at="2024-04-05T10:57:51 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="endReport" finished-at="2024-04-05T10:57:51 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:57:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Drive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[One Drive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="getResult" finished-at="2024-04-05T10:57:51 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="endReport" finished-at="2024-04-05T10:57:51 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:57:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global IT Internal Events]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Global IT Internal Events]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="getResult" finished-at="2024-04-05T10:57:51 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="endReport" finished-at="2024-04-05T10:57:51 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="validateApps" data-provider="titles" finished-at="2024-04-05T10:57:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global Information Technology Documents]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S&T Policy Hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateApps -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="getResult" finished-at="2024-04-05T10:57:51 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateApps status=SUCCESS method=Global_IT.validateApps(java.lang.String,java.lang.String)[pri:3, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="endReport" finished-at="2024-04-05T10:57:51 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="verifyNewsAvailability()[pri:4, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:51 IST" name="verifyNewsAvailability" finished-at="2024-04-05T10:57:52 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsAvailability -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="getResult" finished-at="2024-04-05T10:57:52 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewsAvailability status=SUCCESS method=Global_IT.verifyNewsAvailability()[pri:4, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="endReport" finished-at="2024-04-05T10:57:52 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="verifyAwardsAvailability()[pri:5, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="verifyAwardsAvailability" finished-at="2024-04-05T10:57:52 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAwardsAvailability -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="getResult" finished-at="2024-04-05T10:57:52 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAwardsAvailability status=SUCCESS method=Global_IT.verifyAwardsAvailability()[pri:5, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="endReport" finished-at="2024-04-05T10:57:52 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayNewsCount()[pri:6, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="displayNewsCount" finished-at="2024-04-05T10:57:52 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayNewsCount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:52 IST" name="getResult" finished-at="2024-04-05T10:57:53 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayNewsCount status=SUCCESS method=Global_IT.displayNewsCount()[pri:6, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:53 IST" name="endReport" finished-at="2024-04-05T10:57:53 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="validateNewsHeaderAndTooltip()[pri:7, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:53 IST" name="validateNewsHeaderAndTooltip" finished-at="2024-04-05T10:57:53 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewsHeaderAndTooltip -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:53 IST" name="getResult" finished-at="2024-04-05T10:57:53 IST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNewsHeaderAndTooltip status=SUCCESS method=Global_IT.validateNewsHeaderAndTooltip()[pri:7, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:53 IST" name="endReport" finished-at="2024-04-05T10:57:53 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T10:57:53 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T11:00:57 IST" duration-ms="183894" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rishabh Raj becomes EC Council Disaster Recovery Professional]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, findElements {using=xpath, value=//div[@data-automation-id='CanvasLayout']/div[1]/div/div[1]/div[2]//div[@data-automation-id='textBox']/p}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, findElements {using=xpath, value=//div[@data-automation-id='CanvasLayout']/div[1]/div/div[1]/div[2]//div[@data-automation-id='textBox']/p}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:369)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:363)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:83)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+at jdk.proxy2/jdk.proxy2.$Proxy20.iterator(Unknown Source)
+at testScenario.Global_IT.displayAwards(Global_IT.java:230)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="getResult" finished-at="2024-04-05T11:00:57 IST" duration-ms="12" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayAwards status=FAILURE method=Global_IT.displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@30f5a68a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+at userDefinedLibraries.ScreenShot.getScreenShot(ScreenShot.java:16)
+at testScenario.Global_IT.getResult(Global_IT.java:260)
+at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="endReport" finished-at="2024-04-05T11:00:57 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T11:00:57 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT Team Wins Two Awards at the DevOps India Summit 2023]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+at userDefinedLibraries.ScreenShot.getScreenShot(ScreenShot.java:16)
+at testScenario.Global_IT.getResult(Global_IT.java:260)
+at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="getResult" finished-at="2024-04-05T11:00:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="endReport" finished-at="2024-04-05T11:00:57 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="displayAwards(java.lang.String)[pri:8, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="displayAwards" data-provider="awards" finished-at="2024-04-05T11:00:57 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CInsights Wins the Prestigious Brandon Hall Award]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3a5763aa1c89855da29334aaab79fcb9, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64237}, msedge: {msedgedriverVersion: 122.0.2365.113 (9bf34bfff1f..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64237/devtoo..., se:cdpVersion: 122.0.2365.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a5763aa1c89855da29334aaab79fcb9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:322)
+at userDefinedLibraries.ScreenShot.getScreenShot(ScreenShot.java:16)
+at testScenario.Global_IT.getResult(Global_IT.java:260)
+at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAwards -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="getResult" finished-at="2024-04-05T11:00:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="endReport" finished-at="2024-04-05T11:00:57 IST" depends-on-methods="testScenario.Global_IT.getResult" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScenario.Global_IT@30f5a68a]" started-at="2024-04-05T11:00:57 IST" name="closeBrowser" finished-at="2024-04-05T11:00:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScenario.Global_IT -->
+    </test> <!-- Test search in Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
